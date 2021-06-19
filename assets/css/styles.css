@@ -7,7 +7,7 @@
     --header-height: 3rem;
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 120;
+    --hue-color: 230;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -66,6 +66,30 @@
 }
 
 /*========== Variables Dark theme ==========*/
+
+/* body.blue {
+    --hue-color: 230;
+}
+
+body.green {
+    --hue-color: 142;
+}
+
+body.orange {
+    --hue-color: 30;
+}
+
+body.red {
+    --hue-color: 1;
+}
+
+body.purple {
+    --hue-color: 340;
+}
+
+body.pink {
+    --hue-color: 120;
+} */
 
 body.dark-theme {
     /* HSL color mode */

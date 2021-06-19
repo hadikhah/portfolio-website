@@ -184,3 +184,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+// change theme color
+document.querySelector('html').style.setProperty('--hue-color', 120);
+
